@@ -14,6 +14,7 @@ I separated the projects in different modules:
 
 ### How to run:
 Open it on Visual Studio. Just hit start (F5) and it will  display the whole. Make sure you ahve the Angular CLI version installed.
+Make sure you have Anular installed
 
 
 ### Problems encontered and decitions taken:
