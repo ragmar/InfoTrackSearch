@@ -1,0 +1,40 @@
+﻿<h1>Search Url Google</h1>
+
+<p>Please enter the search tearm and the url to print.</p>
+
+<div class="search-form">
+
+  <div>
+    <label for="searchTerm">Search Term:</label>  
+    <input type="text" id="searchTerm" [(ngModel)]="searchTerm" placeholder="Search Term" />
+  </div>
+  
+  <div>
+    <label for="urlToSearch">Url To Search:</label>
+    <input type="text" [(ngModel)]="urlToSearch" placeholder="Url" />
+  </div>
+  <div>
+    <button (click)="search()">Search</button>
+  </div>
+</div>
+
+@if (error) {
+  <div class="error-message">
+    <p>{{error.code}}</p>
+    <p>{{error.message}}</p>
+  </div>
+}
+
+
+@if (urlPositions == "0") {
+  <div>
+    <span>The Url {{searchedUrl}} was not found</span>
+  </div>
+} @else if(urlPositions) {
+  <div>
+    <span>The Url {{searchedUrl}} was found in the position {{urlPositions}}</span>
+  </div>
+}
+
+
+

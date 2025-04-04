@@ -1,0 +1,6 @@
+@InfoTrackSearch.Server_HostAddress = http://localhost:5224
+
+GET {{InfoTrack.Server_HostAddress}}/searchurl/
+Accept: application/json
+
+###

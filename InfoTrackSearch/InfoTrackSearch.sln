@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "infotracksearch.client", "infotracksearch.client\infotracksearch.client.esproj", "{1EC19EBC-5497-AF0D-EA43-C957AA5461CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoTrackSearch.Server", "InfoTrackSearch.Server\InfoTrackSearch.Server.csproj", "{88FD9F24-0D8F-4CAE-AB1C-9C2D8D539E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoTrackSearch.Controllers", "InfoTrackSearch.Controllers\InfoTrackSearch.Controllers.csproj", "{1A492542-5184-47C5-9FDF-D86BC896D254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoTrackSearch.DomainModel", "InfoTrackSearch.DomainModel\InfoTrackSearch.DomainModel.csproj", "{8C4CC5CC-97DD-4550-ABA5-64ABC72D1EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoTrackSearch.ServiceWrapper", "InfoTrackSearch.ServiceWrapper\InfoTrackSearch.ServiceWrapper.csproj", "{FFC84766-6A26-43BD-8DF8-116BA91C48A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoTrackSearch.Services", "InfoTrackSearch.Services\InfoTrackSearch.Services.csproj", "{A0B548DF-38CB-4414-9214-C7DFFEAD495A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EC19EBC-5497-AF0D-EA43-C957AA5461CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC19EBC-5497-AF0D-EA43-C957AA5461CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC19EBC-5497-AF0D-EA43-C957AA5461CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1EC19EBC-5497-AF0D-EA43-C957AA5461CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC19EBC-5497-AF0D-EA43-C957AA5461CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC19EBC-5497-AF0D-EA43-C957AA5461CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{88FD9F24-0D8F-4CAE-AB1C-9C2D8D539E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FD9F24-0D8F-4CAE-AB1C-9C2D8D539E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FD9F24-0D8F-4CAE-AB1C-9C2D8D539E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FD9F24-0D8F-4CAE-AB1C-9C2D8D539E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A492542-5184-47C5-9FDF-D86BC896D254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A492542-5184-47C5-9FDF-D86BC896D254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A492542-5184-47C5-9FDF-D86BC896D254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A492542-5184-47C5-9FDF-D86BC896D254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4CC5CC-97DD-4550-ABA5-64ABC72D1EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4CC5CC-97DD-4550-ABA5-64ABC72D1EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4CC5CC-97DD-4550-ABA5-64ABC72D1EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4CC5CC-97DD-4550-ABA5-64ABC72D1EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC84766-6A26-43BD-8DF8-116BA91C48A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC84766-6A26-43BD-8DF8-116BA91C48A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC84766-6A26-43BD-8DF8-116BA91C48A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC84766-6A26-43BD-8DF8-116BA91C48A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B548DF-38CB-4414-9214-C7DFFEAD495A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B548DF-38CB-4414-9214-C7DFFEAD495A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B548DF-38CB-4414-9214-C7DFFEAD495A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B548DF-38CB-4414-9214-C7DFFEAD495A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D14B90D-B8D7-4CD7-9E79-16F97505CB04}
+	EndGlobalSection
+EndGlobal
