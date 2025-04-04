@@ -3,15 +3,7 @@ import { SearchUrlRequest } from './models/search-url-requet';
 import SearchUrlService from './services/search-url.service';
 import { Subscription } from 'rxjs';
 import { ApiError } from './models/api-error';
-import { HttpResponse } from '@angular/common/http';
 import { SearchUrlResponse } from './models/search-url-response';
-
-interface WeatherForecast {
-  date: string;
-  temperatureC: number;
-  temperatureF: number;
-  summary: string;
-}
 
 @Component({
   selector: 'app-root',
@@ -19,7 +11,6 @@ interface WeatherForecast {
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnDestroy {
-  forecasts: WeatherForecast[] = [];
   searchTerm: string = 'land registry search';
   urlToSearch: string = 'www.infotrack.co.uk';
   searchedUrl: string;
