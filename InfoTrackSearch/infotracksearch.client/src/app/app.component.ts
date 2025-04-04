@@ -10,6 +10,7 @@ import { SearchUrlResponse } from './models/search-url-response';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent implements OnDestroy {
   searchTerm: string = 'land registry search';
   urlToSearch: string = 'www.infotrack.co.uk';
@@ -33,7 +34,6 @@ export class AppComponent implements OnDestroy {
     }
 
     this.subscription = this.searchUrlService.searchUrl(searchUrlRequest)
-    
     .subscribe({
       next: (response: SearchUrlResponse) => {
         this.urlPositions = response.data;
