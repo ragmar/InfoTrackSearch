@@ -1,6 +1,7 @@
 # InfoTrack Search
 
-This project was generated with .Net 8 and Angular CLI version 18.2.17.
+This project was generated with .Net 8 and Angular CLI version 18.2.17. Make sure you have the Angular CLI version installed.
+
 It is an ASP.NET Core application
 
 ### Modules
@@ -13,7 +14,7 @@ I separated the projects in different modules:
 - **ServiceWrapper:** This is a wrapper between the GoogleApi (url search) and the bussiness logic, we could change to call another API here. There is also a wrapper for an HtmlHelper.
 
 ### How to run:
-Open it on Visual Studio. Just hit start (F5) and it will  display the whole. Make sure you ahve the Angular CLI version installed.
+Open it on Visual Studio. Make sure InfoTrackSearch.Server is the project to start up. Hit start (F5) and it will  display the whole. 
 
 
 ### Problems encontered and decitions taken:
