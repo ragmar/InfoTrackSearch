@@ -20,6 +20,7 @@
     <ProjectReference Include="..\infotracksearch.client\infotracksearch.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\InfoTrackSearch.Controllers\InfoTrackSearch.Controllers.csproj" />
     <ProjectReference Include="..\InfoTrackSearch.Services\InfoTrackSearch.Services.csproj" />
     <ProjectReference Include="..\InfoTrackSearch.ServiceWrapper\InfoTrackSearch.ServiceWrapper.csproj" />
   </ItemGroup>
